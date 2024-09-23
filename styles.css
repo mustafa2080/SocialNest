@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1877f2 !important;
+}
+
+.nav-link {
+    color: #65676b !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #1877f2 !important;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #1877f2;
+    border-color: #1877f2;
+}
+
+.btn-primary:hover {
+    background-color: #166fe5;
+    border-color: #166fe5;
+}
+
+.btn-outline-success {
+    color: #42b72a;
+    border-color: #42b72a;
+}
+
+.btn-outline-success:hover {
+    background-color: #42b72a;
+    color: #ffffff;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e4e6eb;
+}
+
+/* Profile Image Styles */
+.rounded-circle {
+    border: 3px solid #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#add-btn {
+    background-color: #1877f2; 
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    position: fixed; 
+    bottom: 1.5rem; 
+    right: 1.5rem; 
+}
+
+#add-btn:hover {
+    background-color: #166fe5;
+    transform: scale(1.05); 
+}
+
+#add-btn svg {
+    fill: white; 
+}
+
+#add-btn:focus {
+    outline: none; 
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); 
+}
+
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #f0f2f5;
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+/* Loader Styles */
+#loader {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+/* Alert Styles */
+#success-alert {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .col-9 {
+        width: 100%;
+    }
+}
